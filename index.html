@@ -2,44 +2,100 @@
 
 <html>
     <head>
+        <!-- is this even relevant -->
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>My website</title>
-        
+        <title>Spectra Audio</title>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?v=3">
+            
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        
     </head>
     
     <body>
+        <!-- header part lol-->
         <header class="header">
-            <div>
-                <h1>logo</h1>
+            <div class="logoLeft">
+                <a href="#home"><img class="logoImg" src="/public/logo.png" alt="logo"/></a>
+                <a href="#home"><h2 class="logoText">Spectra Audio</h2></a>
             </div>
             <nav class="navbar">
                 <ul>
-                    <li>Home</li>
-                    <li>Ghost Production</li>
-                    <li>Artworks</li>
+                    <li ><a class="navText"href="#home">Home</a></li>
+                    <li ><a class="navText" href="#packages">Packages</a></li>
+                    <li ><a class="navText" href="">Demos</a></li>
+                    <li ><a class="navText" href="">About</a></li>
+                    
+                    <li ><button class="contactButton">Contact</button></li>
                 </ul>
             </nav>
-
+            <!-- hamburger navbar plz -->
         </header>
 
-        <div class="hero">
+        <!-- hero section -->
+        <section class="hero" id="home">
             
-            <div class="heroText">
-                <h1>Elevate your <a>sound</a></h1>
-                <h1>Define your <a>style</a></h1>
+            <div class="heroTexts">
+                <div>
+                    <h1>Elevate your <a class="coolText1">sound.</a></h1>
+                    <h1>Define your <a class="coolText2">style.</a></h1>
+                </div>
+
+                
+                <p class="descriptionText">With over 8+ years in the music industry, we can bring your artist career to life with our expertly curated producers.</p>
+
+                <div class="buttonDiv">
+                    <button class="buttonExplore">Explore Services</button>
+                    <button class="buttonSamples">Listen to Samples</button>
+                </div>
 
             </div>
-            <img class="heroImage" src="src/ghostprod.png" alt="hero Image">
+            <img class="heroImage" src="public/ghostprod.png" alt="hero Image">
             
-        </div>
+        </section>
 
+         <!-- packages section -->
+        <section class="packages" id="packages"> 
+            <div>
+                <h3>Premium Production Services</h3>
+                <p>Choose a package that fits your creative needs and budget</p>
+            </div>
+            <div class="cardsContainer">
+                <div class="card"></div>
+            </div>
+        </section>
+
+         <!-- demos section -->
+        <section class="videoFrame">
+            <!-- Ignore this I tried to make a web audio player
+            <audio id="audioPlayer">
+                <source src="public/abyssal.mp3" type="audio/mpeg">
+            </audio>
+            <button id="playBtn">Play</button>
+            <button id="pauseBtn">Pause</button>
+            -->
+            
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/VnjhexvYMJo?si=0FK99JGjpf-iXD2Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            
+            
+        </section>
+        
+        <!-- features section -->
+        <section>
+
+        </section>
+        
+        <!-- footer -->
         <footer>
             <div>ok</div>
         </footer>
         
-        <script src="script" async defer></script>
+        <script src="script.js" async defer></script>
     </body>
 </html>
