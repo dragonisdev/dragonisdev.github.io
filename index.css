@@ -113,12 +113,19 @@ nav ul {
     font-family: "Ubuntu", sans-serif;
     font-weight: 600;
     color: white; 
+    border: 2px solid white;
     background-color: #8833EA;
     border-style: solid;
+    
     border-radius: 15px;
     padding: 10px 20px;
     cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+}
 
+.contactButton:hover {
+    transform: scale(1.05);
+    border-color: transparent;
 }
 
 /*navbar hover effect */
@@ -154,11 +161,58 @@ nav ul li {
     
 }
 
+.imgContainer {
+    display: grid;
+    place-items: center; /* Centers content */
+    max-width: 650px;
+    width: 100%;
+}
+
+.imgContainer a {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
 
 .heroImage {
-    max-width: 650px;
- 
+    
+    transition: all 0.3s ease;
+    width: 100%;
+    height: auto;
+    display: block;
 }
+
+.heroImage:hover {
+    filter: blur(8px);
+}
+
+.imgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.imgContainer a:hover {
+    display: grid;
+    place-items: center;
+}
+
+.imgContainer a:hover .imgText {
+    display: block;
+    opacity: 1;
+}
+
 
 .heroTexts {
     display: flex;
@@ -258,16 +312,3 @@ nav ul li {
 
 
 
-/* packages section */
-
-.packages {
-    width: 100%;
-    padding: 140px 100px;
-    background-color: #09080D;
-    margin: 0 auto;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    
-}
