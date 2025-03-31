@@ -3,13 +3,13 @@
 .packages {
     width: 100%;
     padding: 140px 100px;
-    background-color: #09080D;
+    background-color: #0C0C18;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+  
     box-sizing: border-box; 
 }
 
@@ -28,28 +28,297 @@
 }
 
 .cardsContainer {
+    font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
-    margin-top: 5vh;
+    align-items: center;
+    
+    margin-top: 3vh;
     flex-wrap: wrap; 
 }
 
 .card {
     background: #07070E; 
-    width: 350px; 
-    height: 500px; 
-    border-radius: 7px; 
+    z-index: 1;
+    min-width: 20em; 
+    width: 25%;
+    height: auto;
+    border-radius: 15px; 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.192);
     margin: 1em;
-    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 12px rgba(136, 51, 234, 0.2);
+    transition: all 0.3s ease;
 }
+
+.card:hover {
+    transform: translateY(-10px); /* Moves the card up by 10px */
+    box-shadow: 0 8px 20px rgba(136, 51, 234, 0.4); /* Enhances shadow for emphasis */
+    z-index: 2
+}
+    
+
+
 
 .cardDesc {
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    min-height: 500px;
 }
+
+.packageIcon {
+    max-width: 50px;
+    
+    
+}
+
+.flex-row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.popular {
+    font-size: 12px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    color: white; 
+  
+    background: linear-gradient(-90deg, #8833EA, #5A36ED);
+   
+    
+    border-radius: 20px;
+    padding: 7px 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+}
+
+.popular:hover {
+    transform: scale(1.05);
+    border-color: transparent;
+}
+
+
+.packageTitle {
+    font-size: 24px;
+}
+
+.packageDesc {
+    color: #C2C2C2;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.flex-row {
+    
+    display: flex;
+    flex: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.packagePrice {
+    font-size: 36px;
+    
+}
+
+.packageTrack {
+    color: #C2C2C2;
+
+}
+
+.packagesListContainer {
+
+}
+
+.packageslist {
+    
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+    font-family: "Ubuntu", sans-serif;
+    word-spacing: 2px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.check {
+    margin-right: 0.5em;
+}
+.textIncluded {
+
+
+}
+
+.textNotincluded {
+    color: #6E6E6E;
+    font-weight: 400;
+
+}
+
+.packageButtonBase {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 75%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color:#FFFFFF;
+    background: transparent;
+    border: 1px  solid ;
+    border-color: #5636ED ;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative; 
+    overflow: hidden;
+    transition: all 0.3s ease; 
+    
+}
+
+/* Hover effect Button 1*/
+.packageButton1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5636ED; 
+    z-index: -1;
+    transition: width 0.3s;
+    border-radius: 00px;
+    width: 0%;
+    
+}
+
+.packageButton1:hover {
+    color: #fff; 
+    border-color: #5636ED; 
+
+}
+
+.packageButton1:hover:before {
+    width: 100%;
+}
+
+/* Hover effect Button 2*/
+.packageButton2 {
+    background-color: #8833EA;
+    border-color: #8833EA;
+}
+
+.packageButton2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8833EA; 
+    z-index: -1;
+    transition: width 0.2s;
+    border-radius: 00px;
+    width: 0%;
+    
+}
+
+.packageButton2:hover {
+    color: #fff; 
+    border-color: #8833EA; 
+    transform: scale(1.05);
+}
+
+.packageButton2:hover:before {
+    width: 100%;
+}
+
+/* Hover effect Button 3*/
+.packageButton3 {
+    border-color: #FF2A6D;
+}
+
+.packageButton3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF2A6D; 
+    z-index: -1;
+    transition: width 0.3s;
+    border-radius: 00px;
+    width: 0%;
+    
+}
+
+.packageButton3:hover {
+    color: #fff; 
+    border-color: #FF2A6D; 
+
+}
+
+.packageButton3:hover:before {
+    width: 100%;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    body {
+      
+    }
+
+    
+  }
+  
+  
+  @media (max-width: 620px) {
+    body {
+      
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    body {
+      
+    }
+   
+  }
+  
+  
+  @media (max-width: 1060px) {
+    body {
+      
+    }
+  }
+  
+
+  @media (max-width: 1200px) {
+    body {
+      
+    }
+  }
+  
+ 
+  @media (max-width: 1700px) {
+    body {
+      
+    }
+  }

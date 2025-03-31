@@ -9,12 +9,12 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    min-width: 560px;
+  
     background-color: #14131F;
 }
 
 body {
-    
+    width: 100%;
     
 }
 
@@ -55,14 +55,13 @@ header {
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 0 100px;
     background-color: #09080D;
     
     position: fixed;
     width: 100%;
     z-index: 1000;
-    
-    
+
 }
 
 .logoLeft {
@@ -151,8 +150,8 @@ nav ul {
 
 .hero {
     width: 100%;
-    padding: 200px 100px;
-    
+    padding: 150px 100px;
+    flex-wrap: wrap;
     margin: 0 auto;
     display: flex;
     
@@ -163,12 +162,13 @@ nav ul {
 
 .imgContainer {
     display: grid;
-    place-items: center; /* Centers content */
+    place-items: center; 
     max-width: 650px;
     width: 100%;
     z-index: 1;
     position: relative;
     place-items: center;
+    margin-left: 2em; 
 }
 
 
@@ -256,12 +256,20 @@ nav ul {
     cursor: pointer;
     transition: all 0.3s ease; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 2px solid white;
+    
+    border-style: solid;
+    
+    border-radius: 15px;
+    
+  
+    transition: transform 0.3s ease, border-color 0.3s ease; 
 }
 
-/* Hover effect */
+
 .buttonExplore:hover {
-    transform: scale(1.1); /* Slightly enlarge the button */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Make shadow stronger */
+    transform: scale(1.05);
+    border-color: transparent;
 }
 
 
@@ -313,3 +321,56 @@ nav ul {
     
     
 }
+
+
+
+
+/* Media Queries for responsiveness, honestly dont know wtf im doing, I used these screen sizes for previous projects  */ 
+
+@media (max-width: 480px) {
+    body {
+      
+    }
+
+    h1 {
+        font-size: 36px; 
+    }
+  }
+  
+  
+  @media (max-width: 620px) {
+    body {
+      
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    body {
+      
+    }
+    h1 {
+        font-size: 48px; 
+    }
+  }
+  
+  
+  @media (max-width: 1060px) {
+    body {
+      
+    }
+  }
+  
+
+  @media (max-width: 1200px) {
+    body {
+      
+    }
+  }
+  
+ 
+  @media (max-width: 1700px) {
+    body {
+      
+    }
+  }

@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="packages.css">
         <link rel="stylesheet" href="demos.css">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="contact.css">
         
     </head>
     
@@ -77,30 +79,121 @@
                 <!-- Card 1 -->
                 <div class="card">
                     <div class="cardDesc">
-                        
-                        <h4>Card Title</h4>
-                        <p>Some description about the card's contents.</p>
+                        <img class="packageIcon" src="public/small_package.png" alt="small package icon">
+                        <h4 class="packageTitle">Essential Mix</h4>
+                        <p class="packageDesc">Perfect for artists seeking quality
+                            production at an affordable price</p>
+                        <div class="flex-row">
+                            <h4 class="packagePrice">$299</h4>
+                            <p class="packageTrack">&nbsp/track</p>
+                        </div>
+                        <ul class="packagesListContainer">
+                            <li class="packageslist">
+                                <img class="check" src="public/check_1.svg" alt="checkmark">
+                                <p class="textIncluded">Premium Mix & Master</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_1.svg" alt="checkmark">
+                                <p class="textIncluded">2 Revision Rounds</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_1.svg" alt="checkmark">
+                                <p class="textIncluded">Delivery in 14 Days</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/cross.svg" alt="not included">
+                                <p class="textNotincluded">Stems Delivery</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/cross.svg" alt="not included">
+                                <p class="textNotincluded">Project File Included</p>
+                            </li>
+                        </ul>
+                        <button class=" packageButtonBase packageButton1">Select Package</button>
                     </div>
                 </div>
+
+
+
                  <!-- Card 2 -->
-                <div class="card">
+                 <div class="card">
                     <div class="cardDesc">
-                        <h4>Card Title</h4>
-                        <p>Some description about the card's contents.</p>
+                        <div class="flex-row2">
+                            <img class="packageIcon" src="public/middle_package.png" alt="small package icon">
+                            <button class="popular">POPULAR</button>
+                        </div>
+                        <h4 class="packageTitle">Professional Track</h4>
+                        <p class="packageDesc">Our most popular option with perfect
+                            balance of quality and value</p>
+                        <div class="flex-row">
+                            <h4 class="packagePrice">$599</h4>
+                            <p class="packageTrack">&nbsp/track</p>
+                        </div>
+                        <ul class="packagesListContainer">
+                            <li class="packageslist">
+                                <img class="check" src="public/check_2.svg" alt="checkmark">
+                                <p class="textIncluded">Premium Mix & Master</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_2.svg" alt="checkmark">
+                                <p class="textIncluded">2 Revision Rounds</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_2.svg" alt="checkmark">
+                                <p class="textIncluded">Delivery in 14 Days</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_2.svg" alt="not included">
+                                <p class="textIncluded">Stems Delivery</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/cross.svg" alt="not included">
+                                <p class="textNotincluded">Project File Included</p>
+                            </li>
+                        </ul>
+                        <button class="packageButtonBase packageButton2">Select Package</button>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="card">
                     <div class="cardDesc">
-                        <h4>Card Title</h4>
-                        <p>Some description about the card's contents.</p>
+                        <img class="packageIcon" src="public/big_package.png" alt="small package icon">
+                        <h4 class="packageTitle">Signature Series</h4>
+                        <p class="packageDesc">The ultimate production experience for
+                            artists demanding excellence</p>
+                        <div class="flex-row">
+                            <h4 class="packagePrice">$999</h4>
+                            <p class="packageTrack">&nbsp/track</p>
+                        </div>
+                        <ul class="packagesListContainer">
+                            <li class="packageslist">
+                                <img class="check" src="public/check_3.svg" alt="checkmark">
+                                <p class="textIncluded">Premium Mix & Master</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_3.svg" alt="checkmark">
+                                <p class="textIncluded">2 Revision Rounds</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_3.svg" alt="checkmark">
+                                <p class="textIncluded">Delivery in 14 Days</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_3.svg" alt="not included">
+                                <p class="textIncluded">Stems Delivery</p>
+                            </li>
+                            <li class="packageslist">
+                                <img class="check" src="public/check_3.svg" alt="not included">
+                                <p class="textIncluded">Project File Included</p>
+                            </li>
+                        </ul>
+                        <button class="packageButtonBase packageButton3">Select Package</button>
                     </div>
                 </div>
+
             </div>
-
-            
-
+            <!-- End of packages section -->
         </section>
 
 
@@ -115,7 +208,7 @@
                     Listen to Demos
                 </h3>
                 <p class="packagesText">Check out samples of our production work</p>
-                <iframe class="videoFrame" width="720" height="360" src="https://www.youtube.com/embed/VnjhexvYMJo?si=HKoQN0Lo2BtpqFzl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="videoFrame" width="1080" height="720" src="https://www.youtube.com/embed/VnjhexvYMJo?si=HKoQN0Lo2BtpqFzl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
             
@@ -123,7 +216,16 @@
         
         <!-- about section -->
         <section class="about" id="about">
+            <div>
+                <h3 class="aboutHeading">Premium Production Services</h3>
+                <p class="aboutText">Choose a package that fits your creative needs and budget</p>
+            </div>
 
+            <div class="aboutContainer">
+                <div class="aboutCard">
+                    aaaa
+                </div>
+            </div>
         </section>
         
 
