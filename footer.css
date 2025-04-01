@@ -1,0 +1,48 @@
+.footer {
+    color: #FFFFFF;
+   
+    
+    padding: 50px 130px;
+    background-color: #09080D;
+    border: 1px solid;
+    border-color: #ffffff14;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.footerText {
+    color: #C2C2C2;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+.logoLeft1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoImg1 {
+    max-width: 40px;
+    
+}
+
+.logoText1 {
+    background: linear-gradient(80deg, #B14CFF, #F42869);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+

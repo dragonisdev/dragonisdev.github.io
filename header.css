@@ -1,0 +1,94 @@
+
+header {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #09080D;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.logoLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoImg {
+    max-width: 50px;
+    
+}
+
+.logoText {
+    background: linear-gradient(80deg, #B14CFF, #F42869);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 32px;
+}
+
+.navbar {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 20px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+}
+
+
+.navText {
+    color: #C2C2C2;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block; 
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+}
+
+.contactButton {
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    color: white; 
+    border: 2px solid white;
+    background-color: #8833EA;
+    border-style: solid;
+    
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+}
+
+.contactButton:hover {
+    transform: scale(1.05);
+    border-color: transparent;
+}
+
+/*navbar hover effect */
+
+.navText:hover {
+    color: white;
+    
+    transform: scale(1.1)
+}
+
+.navText.active {
+    text-decoration: underline;
+    color: white;
+}

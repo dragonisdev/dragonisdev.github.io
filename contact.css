@@ -1,0 +1,22 @@
+.contact {
+    width: 100%;
+    padding: 140px 100px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box; 
+}
+
+.contactText{
+    color: #C2C2C2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    
+    padding: 1vh 0;
+    text-align: center
+}

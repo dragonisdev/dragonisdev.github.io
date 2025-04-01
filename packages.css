@@ -9,12 +9,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+    
     box-sizing: border-box; 
 }
 
 .packagesHeading {
     text-align: center;
+}
+
+.packageTitle {
+    color: white;
 }
 
 .packagesText {
@@ -59,8 +63,8 @@
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Moves the card up by 10px */
-    box-shadow: 0 8px 20px rgba(136, 51, 234, 0.4); /* Enhances shadow for emphasis */
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 20px rgba(136, 51, 234, 0.4); 
     z-index: 2
 }
     
