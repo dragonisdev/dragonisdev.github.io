@@ -11,3 +11,9 @@ function scrollToDemos() {
 function scrollToContact() {
     document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 }
+
+
+function toggleMenu() {
+    const navMenu = document.querySelector(".navbar ul");
+    navMenu.classList.toggle("active");
+}

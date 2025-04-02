@@ -173,6 +173,11 @@
 
 }
 
+.anchor {
+   
+    text-align: center;
+}
+
 .packageButtonBase {
     font-size: 18px;
     margin: 0 auto;

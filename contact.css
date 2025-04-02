@@ -20,3 +20,83 @@
     padding: 1vh 0;
     text-align: center
 }
+
+.contactContainer {
+    font-family: "Poppins", sans-serif;
+    
+    width: 100%;
+    max-width: 920px;
+    margin-top: 3vh;
+    flex-wrap: wrap; 
+    background: #07070E; 
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #c2c2c236;
+}
+
+.contactForm {
+    
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+.contactRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactCol {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    
+    
+}
+
+input {
+    background-color: #131318;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.336);
+    width: 100%; 
+    padding: 0.5vh 1em;
+    cursor: text;
+    border: 1px solid;
+    border-radius: 15px;
+    outline: none;
+}
+
+.messageLabel {
+    max-width: 200px;
+    width: 200px;
+
+}
+
+
+.buttonContact {
+    font-size: 12px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    color: white; 
+    
+    background: linear-gradient(-90deg, #8833EA, #5A36ED);
+   
+    
+    border-radius: 20px;
+    padding: 12px 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+}
+
+.buttonContact:hover {
+    transform: scale(1.05);
+    border-color: transparent;
+}

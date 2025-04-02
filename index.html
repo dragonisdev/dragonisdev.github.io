@@ -24,12 +24,14 @@
     </head>
     
     <body>
-        <!-- header part lol-->
+        <!-- header with navbar-->
         <header class="header">
+
             <div class="logoLeft">
                 <a href="#home"><img class="logoImg" src="/public/logo.png" alt="logo"/></a>
                 <a href="#home"><h2 class="logoText">Spectra Audio</h2></a>
             </div>
+
             <nav class="navbar">
                 <ul>
                     <li ><a class="navText" href="#home">Home</a></li>
@@ -41,32 +43,37 @@
                 </ul>
             </nav>
             <!-- hamburger navbar plz -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </header>
 
         <!-- hero section -->
         <section class="hero" id="home">
-            
             <div class="heroTexts">
                 <div>
                     <h1>Elevate your <a class="coolText1">sound.</a></h1>
                     <h1>Define your <a class="coolText2">style.</a></h1>
                 </div>
 
-                
-                <p class="descriptionText">With over 8+ years in the music industry, we can bring your artist career to life with our expertly curated producers. Explore our adaptible ghost production services now!</p>
+                <p class="descriptionText">
+                    With over 8+ years in the music industry, we can bring your artist career to life with our 
+                    expertly curated producers. Explore our adaptible ghost production services now!
+                </p>
 
                 <div class="buttonDiv">
                     <button class="buttonExplore" onclick="scrollToPackages()">Explore Services</button>
                     <button class="buttonSamples" onclick="scrollToDemos()">Listen to Samples</button>
                 </div>
-
             </div>
+            
             <div class="imgContainer">
                 <a href="https://unsplash.com/photos/person-playing-brown-and-white-acoustic-guitars-ptVBlniJi50" target="_blank">
                     <img class="heroImage" src="public/ghostprod.png" alt="studio Image">
                     <div class="imgText">Source</div>
                 </a>
-                
             </div>
             
         </section>
@@ -111,7 +118,10 @@
                                 <p class="textNotincluded">Project File Included</p>
                             </li>
                         </ul>
-                        <a href="https://checkout.stripe.dev/checkout"><button class="packageButtonBase packageButton1" >Select Package</button></a>
+
+                        <a class="anchor" href="https://checkout.stripe.dev/checkout">
+                            <button class="packageButtonBase packageButton1" >Select Package</button>
+                        </a>
                     </div>
                 </div>
 
@@ -124,6 +134,7 @@
                             <img class="packageIcon" src="public/middle_package.png" alt="small package icon">
                             <button class="popular">POPULAR</button>
                         </div>
+
                         <h4 class="packageTitle">Professional Track</h4>
                         <p class="packageDesc">Our most popular option with perfect
                             balance of quality and value</p>
@@ -131,6 +142,7 @@
                             <h4 class="packagePrice">$599</h4>
                             <p class="packageTrack">&nbsp/track</p>
                         </div>
+
                         <ul class="packagesListContainer">
                             <li class="packageslist">
                                 <img class="check" src="public/check_2.svg" alt="checkmark">
@@ -153,7 +165,10 @@
                                 <p class="textNotincluded">Project File Included</p>
                             </li>
                         </ul>
-                        <a href="https://checkout.stripe.dev/checkout"><button class="packageButtonBase packageButton2" >Select Package</button></a>
+
+                        <a class="anchor" href="https://checkout.stripe.dev/checkout">
+                            <button class="packageButtonBase packageButton2" >Select Package</button>
+                        </a>
                     </div>
                 </div>
 
@@ -164,10 +179,12 @@
                         <h4 class="packageTitle">Signature Series</h4>
                         <p class="packageDesc">The ultimate production experience for
                             artists demanding excellence</p>
+
                         <div class="flex-row">
                             <h4 class="packagePrice">$999</h4>
                             <p class="packageTrack">&nbsp/track</p>
                         </div>
+
                         <ul class="packagesListContainer">
                             <li class="packageslist">
                                 <img class="check" src="public/check_3.svg" alt="checkmark">
@@ -190,10 +207,12 @@
                                 <p class="textIncluded">Project File Included</p>
                             </li>
                         </ul>
-                        <a href="https://checkout.stripe.dev/checkout"><button class="packageButtonBase packageButton3" >Select Package</button></a>
+
+                        <a class="anchor" href="https://checkout.stripe.dev/checkout">
+                            <button class="packageButtonBase packageButton3" >Select Package</button>
+                        </a>
                     </div>
                 </div>
-
             </div>
             <!-- End of packages section -->
         </section>
@@ -212,8 +231,6 @@
                 <p class="packagesText">Check out samples of our production work</p>
                 <iframe class="videoFrame" width="1080" height="720" src="https://www.youtube.com/embed/VnjhexvYMJo?si=HKoQN0Lo2BtpqFzl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-
-            
         </section>
         
         <!-- about section -->
@@ -222,53 +239,115 @@
                 <h3 class="aboutHeading">Why Choose Spectra</h3>
                 <p class="aboutText">Our commitment to quality sets us apart</p>
             </div>
-            <div>
+            
                 <div class="aboutContainer">
+
                     <div class="aboutCard">
                         <img class="aboutIcon" src="public/big_package.png" alt="Production Quality Icon">
                         <h4 class="packageTitle">
-                            Industry
+                            Industry Expertise
                         </h4>
-                        <p class="packageDesc">
-                            aa
+                        <p class="aboutDesc">
+                            Our team consists of experienced producers across multiple genres with 100k+ monthly streams across multiple streaming services.
                         </p>
-    
                     </div>
 
                     <div class="aboutCard">
-                        <img class="aboutIcon" src="" alt="Production Quality Icon">
-                        <h1>
-                            
-                        </h1>
-    
+                        <img class="aboutIcon" src="public/aboutIcons/shield.png" alt="Production Quality Icon">
+                        <h4 class="packageTitle">
+                            Cutting-Edge Sound
+                        </h4>
+                        <p class="aboutDesc">
+                            We ensure quality sound that is up to date and the best translation across all playback devices.
+                        </p>
                     </div>
 
                     <div class="aboutCard">
-                        <img class="aboutIcon" src="" alt="Production Quality Icon">
-                        <h1>
-                            
-                        </h1>
-    
+                        <img class="aboutIcon" src="public/aboutIcons/chat.png" alt="Production Quality Icon">
+                        <h4 class="packageTitle">
+                            Satisfaction Guarantee
+                        </h4>
+                        <p class="aboutDesc">
+                            We will ensure satisfaction to the sound within the first few rounds of revisions or offer a 100% refund guarantee.
+                        </p>
                     </div>
                 </div>
-                <div class="aboutContainer"></div>
-            </div>
-            
+
+                <div class="aboutContainer">
+                    <div class="aboutCard">
+                        <img class="aboutIcon" src="public/aboutIcons/lock.png" alt="Production Quality Icon">
+                        <h4 class="packageTitle">
+                            Complete Confidentiality
+                        </h4>
+                        <p class="aboutDesc">
+                            Your music and identity remain 100% yours. We guarantee complete discretion and privacy in all our ghost production services.
+                        </p>
+                    </div>
+
+                    <div class="aboutCard">
+                        <img class="aboutIcon" src="public/aboutIcons/lightning.png" alt="Production Quality Icon">
+                        <h4 class="packageTitle">
+                            Fast Turnaround
+                        </h4>
+                        <p class="aboutDesc">
+                            We understand the importance of timing your releases. We will ensure quality results without unnecessary delays.
+                        </p>
+                    </div>
+
+                    <div class="aboutCard">
+                        <img class="aboutIcon" src="public/aboutIcons/check.png" alt="Production Quality Icon">
+                        <h4 class="packageTitle">
+                            Genre Versatility
+                        </h4>
+                        <p class="aboutDesc">
+                            Our diverse team will deliver exceptional results across all major EDM genres (and beyond).
+                        </p>
+                    </div>
+                </div>
+           
         </section>
         
 
         <!-- contact section -->
         <section class="contact" id="contact">
+            
             <div>
                 <h3 class="aboutHeading">Contact Form</h3>
                 <p class="contactText">Ready to elevate your sound? Get in touch and let's create something amazing together.</p>
             </div>
+                
+            
+            <div class="contactContainer">
+                
+                    <form class="contactForm">
+                        <div class="contactRow">
+                            <div class="contactCol">
+                                <div>
+                                    <img class="" src="" alt="">
+                                    <label for="text">Your Name</label>
+                                </div>
+                                <input type="text" placeholder="Enter your name">
+                            </div>
 
-            <div>
-                <form>
-                    <label></label>
-                    <input>
-                </form>
+                            <div class="contactCol">
+                                <label for="text">Your Name</label>
+                                <input type="email" placeholder="Enter your email">
+                            </div>           
+                        </div>
+
+                        <div class="contactCol">
+                            <label for="text">Subject</label>
+                            <input type="text" placeholder="Enter suject">
+                        </div>
+
+                        <div class="contactCol">
+                            <label class="messageLabel" or="text">Your Message</label>
+                            <input type="text" placeholder="Tell us about your project...">
+                        </div>
+
+                        <button class="buttonContact" type="submit">Send Message</button>
+                    </form>
+                
             </div>
         </section>
 
@@ -277,9 +356,6 @@
 
 
 
-
-
-        
         <!-- footer -->
         <footer class="footer">
             <div class="footerContainer">
@@ -288,11 +364,13 @@
                     <a href="#home"><h2 class="logoText1">Spectra Audio</h2></a>
                 </div>
                 <p class="footerText">
-                    © 2025 Spectra Sound. All rights reserved.
+                    © 2025 Spectra Audio. All rights reserved.
                 </p>
             </div>
         </footer>
         
+
         <script src="script.js" async defer></script>
+
     </body>
 </html>
