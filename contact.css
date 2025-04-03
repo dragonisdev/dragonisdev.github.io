@@ -29,7 +29,7 @@
     margin-top: 3vh;
     flex-wrap: wrap; 
     background: #07070E; 
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid;
     border-color: #c2c2c236;
 }
@@ -48,11 +48,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
 }
 
 .contactCol {
     display: flex;
     flex-direction: column;
+    padding: 1vh 0.5em;
+    width: 80%;
+
 }
 
 label {
@@ -65,12 +69,13 @@ label {
 input {
     background-color: #131318;
     font-family: "Poppins", sans-serif;
-    color: rgba(255, 255, 255, 0.336);
+    color: rgba(255, 255, 255, 0.532);
     width: 100%; 
     padding: 0.5vh 1em;
     cursor: text;
     border: 1px solid;
-    border-radius: 15px;
+    border-color: #c2c2c229;
+    border-radius: 7px;
     outline: none;
 }
 
@@ -82,14 +87,12 @@ input {
 
 
 .buttonContact {
+    justify-content: left;
     font-size: 12px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 600;
     color: white; 
-    
     background: linear-gradient(-90deg, #8833EA, #5A36ED);
-   
-    
     border-radius: 20px;
     padding: 12px 12px;
     cursor: pointer;

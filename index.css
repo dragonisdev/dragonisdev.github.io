@@ -239,6 +239,8 @@ p {
     h1 {
         font-size: 36px; 
     }
+
+    
   }
   
   
@@ -247,6 +249,9 @@ p {
       
     }
 
+    .hero {
+        padding: 100px 50px;
+    }
     
   }
   
