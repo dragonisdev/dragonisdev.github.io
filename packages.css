@@ -1,17 +1,6 @@
 /* packages section */
 
-.packages {
-    width: 100%;
-    padding: 140px 100px;
-    background-color: #0C0C18;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    box-sizing: border-box; 
-}
+
 
 .packagesHeading {
     text-align: center;

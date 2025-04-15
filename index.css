@@ -47,11 +47,29 @@ p {
     
 }
 
+.lighterBackground{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 100px 100px;
+    margin: 0 auto;   
+}
 
-
-/* Starting from the top */
-
-
+.darkerBackground {
+    width: 100%;
+    padding: 100px 100px;
+    background-color: #0C0C18;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box; 
+}
 
 /* Hero section */
 
@@ -149,6 +167,7 @@ p {
 
 .buttonDiv {
     padding: 0px 0px;
+    display: flex;
 }
 
 .buttonExplore {
@@ -249,9 +268,10 @@ p {
       
     }
 
-    .hero {
-        padding: 100px 50px;
-    }
+   
+
+   
+    
     
   }
   
@@ -268,12 +288,42 @@ p {
      display: none;    
     }
 
+    .buttonDiv {
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .buttonExplore {
+       
+        min-width: 100%;
+    }
+
+    .buttonSamples {
+        margin: 2vh 0;
+        min-width: 100%;
+        
+    }
+
+  
+
+    .hero {
+        padding: 100px 50px;
+    }
+
+
   }
   
   
   @media (max-width: 1060px) {
     body {
       
+    }
+
+    h1 {
+        font-size: 56px; 
     }
 
     .logoText {
@@ -284,7 +334,19 @@ p {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        
+    }
+
+    .imgContainer {
+        margin: 0;
+    }
+ 
+
+    .buttonExplore {
+        width: 40%;
+    }
+
+    .buttonSamples {
+        width: 40%;
     }
   }
   
@@ -292,6 +354,10 @@ p {
   @media (max-width: 1200px) {
     body {
       
+    }
+
+    h1 {
+        font-size: 64px; 
     }
 
     
