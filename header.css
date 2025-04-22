@@ -135,4 +135,14 @@ nav ul {
         display: flex;
         
     }
+
+    header {
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    .logoText {
+        display: none;
+    }
 }

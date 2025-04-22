@@ -21,7 +21,7 @@ body {
 h1 {
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 88px;
+    font-size: 84px;
     line-height: 1
 }
 
@@ -307,9 +307,9 @@ p {
         
     }
 
-  
+    
 
-    .hero {
+    .hero,  .darkerBackground, .lighterBackground  {
         padding: 100px 50px;
     }
 
@@ -320,6 +320,10 @@ p {
   @media (max-width: 1060px) {
     body {
       
+    }
+
+    .descriptionText {
+        font-size: 20px;
     }
 
     h1 {
@@ -338,6 +342,7 @@ p {
 
     .imgContainer {
         margin: 0;
+        width: 100%;
     }
  
 
