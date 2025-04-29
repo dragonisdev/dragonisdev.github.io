@@ -26,7 +26,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     margin-top: 3vh;
     flex-wrap: wrap; 
 }
@@ -56,9 +55,6 @@
     box-shadow: 0 8px 20px rgba(136, 51, 234, 0.4); 
     z-index: 2
 }
-    
-
-
 
 .cardDesc {
     color: white;
@@ -71,15 +67,12 @@
 
 .packageIcon {
     max-width: 50px;
-    
-    
 }
 
 .flex-row2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .popular {
@@ -87,10 +80,7 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 600;
     color: white; 
-  
     background: linear-gradient(-90deg, #8833EA, #5A36ED);
-   
-    
     border-radius: 20px;
     padding: 7px 12px;
     cursor: pointer;
@@ -102,7 +92,6 @@
     border-color: transparent;
 }
 
-
 .packageTitle {
     font-size: 24px;
 }
@@ -112,11 +101,9 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-size: 18px;
-    
 }
 
 .flex-row {
-    
     display: flex;
     flex: row;
     justify-content: left;

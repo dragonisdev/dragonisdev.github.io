@@ -33,7 +33,6 @@ h3 {
 
 a {
     text-decoration: none;
-
 }
 
 button {
@@ -41,10 +40,6 @@ button {
     border: none;
     outline: none;
     box-shadow: none
-}
-
-p {
-    
 }
 
 .lighterBackground{
@@ -76,10 +71,8 @@ p {
 .hero {
     width: 100%;
     padding: 150px 100px;
-    
     margin: 0 auto;
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
     
@@ -96,9 +89,7 @@ p {
     margin-left: 2em; 
 }
 
-
 .heroImage {
-    
     transition: all 0.3s ease;
     width: 100%;
     height: auto;
@@ -125,7 +116,6 @@ p {
     transition: opacity 0.3s ease-in-out;
 }
 
-
 .imgContainer a:hover {
     display: grid;
     place-items: center;
@@ -136,23 +126,20 @@ p {
     opacity: 1;
 }
 
-
 .heroTexts {
     display: flex;
     flex-direction: column;
     justify-content: left;
     padding: 5% 0;
-    
 }
 
 .coolText1 {
     color: #B14CFF;
 }
+
 .coolText2 {
     color: #F42869;
-    
 }
-
 
 
 .descriptionText {
@@ -244,11 +231,7 @@ p {
 
 
 
-
-
-
-
-/* Media Queries for responsiveness, honestly dont know wtf im doing, I used these screen sizes for previous projects  */ 
+/* Media Queries for responsiveness */ 
 
 @media (max-width: 480px) {
     body {
@@ -265,14 +248,8 @@ p {
   
   @media (max-width: 620px) {
     body {
-      
+ 
     }
-
-   
-
-   
-    
-    
   }
   
  
@@ -297,22 +274,17 @@ p {
     }
 
     .buttonExplore {
-       
         min-width: 100%;
     }
 
     .buttonSamples {
         margin: 2vh 0;
-        min-width: 100%;
-        
+        min-width: 100%;   
     }
-
-    
 
     .hero,  .darkerBackground, .lighterBackground  {
         padding: 100px 50px;
     }
-
 
   }
   
@@ -357,20 +329,22 @@ p {
   
 
   @media (max-width: 1200px) {
-    body {
-      
-    }
-
+   
     h1 {
         font-size: 64px; 
     }
-
-    
   }
   
  
-  @media (max-width: 1700px) {
+  @media (max-width: 1500px) {
     body {
       
+    }
+    h1 {
+        font-size: 72px; 
+    }
+
+    .descriptionText {
+        font-size: 22px;
     }
   }

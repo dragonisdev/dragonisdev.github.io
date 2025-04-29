@@ -81,10 +81,8 @@ nav ul {
 }
 
 /*navbar hover effect */
-
 .navText:hover {
     color: white;
-    
     transform: scale(1.1)
 }
 
@@ -92,9 +90,6 @@ nav ul {
     text-decoration: underline;
     color: white;
 }
-
-
-
 
 .hamburger {
     justify-content: center;

@@ -14,8 +14,6 @@
 }
 
 .contactForm {
-    
-    
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -35,14 +33,11 @@
     flex-direction: column;
     padding: 1vh 0.5em;
     width: 80%;
-
 }
 
 label {
     font-family: "Poppins", sans-serif;
-    color: white;
-    
-    
+    color: white;  
 }
 
 input {
@@ -67,7 +62,6 @@ input {
     padding: 1vh 0;
     font-size: 18px;
     font-weight: 600;
-
 }
 
 .messageInput {
@@ -87,7 +81,6 @@ input {
 
 
 .buttonContact {
-    
     font-size: 18px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 600;

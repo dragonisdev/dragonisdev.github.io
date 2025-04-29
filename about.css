@@ -7,9 +7,7 @@
     background-color: #0C0C18;
     width: 100%;
     padding: 100px 100px;
-    
     margin: 0 auto;
-    
 }
 
 .aboutHeading {
@@ -26,14 +24,12 @@
     text-align: center
 }
 
-
 .aboutContainer {
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     margin-top: 3vh;
     flex-wrap: wrap; 
 }
@@ -47,7 +43,6 @@
     height: 250px;
     border-radius: 15px; 
     display: flex;
-    
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
@@ -57,7 +52,6 @@
     border-color: rgba(255, 255, 255, 0.192);
     transition: all 0.3s ease;
     box-shadow: 0 4px 12px rgba(136, 51, 234, 0.2);
-   
 }
 
 .aboutDesc {
@@ -67,8 +61,6 @@
     font-size: 16px;
     text-align: left;  
     align-self: flex-start;
-   
-    
 }
 
 .aboutCard:hover {
