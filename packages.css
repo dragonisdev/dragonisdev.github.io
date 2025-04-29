@@ -20,6 +20,7 @@
     text-align: center
 }
 
+/* container */
 .cardsContainer {
     font-family: "Poppins", sans-serif;
     display: flex;
@@ -112,7 +113,6 @@
 
 .packagePrice {
     font-size: 36px;
-    
 }
 
 .packageTrack {
@@ -120,12 +120,7 @@
 
 }
 
-.packagesListContainer {
-
-}
-
 .packageslist {
-    
     display:flex;
     flex-direction: row;
     align-items: left;
@@ -138,19 +133,14 @@
 .check {
     margin-right: 0.5em;
 }
-.textIncluded {
 
-
-}
 
 .textNotincluded {
     color: #6E6E6E;
     font-weight: 400;
-
 }
 
 .anchor {
-   
     text-align: center;
 }
 
@@ -170,10 +160,9 @@
     position: relative; 
     overflow: hidden;
     transition: all 0.3s ease; 
-    
 }
 
-/* Hover effect Button 1*/
+/* left button hover */
 .packageButton1:before {
     content: '';
     position: absolute;
@@ -185,21 +174,19 @@
     z-index: -1;
     transition: width 0.3s;
     border-radius: 00px;
-    width: 0%;
-    
+    width: 0%;   
 }
 
 .packageButton1:hover {
     color: #fff; 
     border-color: #5636ED; 
-
 }
 
 .packageButton1:hover:before {
     width: 100%;
 }
 
-/* Hover effect Button 2*/
+/* middle button hover */
 .packageButton2 {
     background-color: #8833EA;
     border-color: #8833EA;
@@ -217,8 +204,8 @@
     transition: width 0.2s;
     border-radius: 00px;
     width: 0%;
-    
 }
+
 
 .packageButton2:hover {
     color: #fff; 
@@ -230,7 +217,7 @@
     width: 100%;
 }
 
-/* Hover effect Button 3*/
+/* right button hover */
 .packageButton3 {
     border-color: #FF2A6D;
 }
